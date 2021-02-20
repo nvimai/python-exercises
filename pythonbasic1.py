@@ -17,3 +17,9 @@ print ("Twinkle, twinkle, little star,\n    How I wonder what you are!\n        
 import platform
 print (platform.python_version())
 
+#3. Write a Python program to display the current date and time.
+
+import datetime
+now=datetime.datetime.now()
+print ("current date and time: ")
+print (now.strftime('%Y, %m, %d, %H, %M, %S'))
