@@ -47,3 +47,7 @@ print("r = {0}\n area = {1}".format(radius, area))
 # Output :
 # List : ['3', ' 5', ' 7', ' 23']
 # Tuple : ('3', ' 5', ' 7', ' 23')
+
+
+# 8. Write a Python program to display the first and last colors from the following list. 
+# color_list = ["Red","Green","White" ,"Black"]
