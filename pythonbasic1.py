@@ -28,26 +28,28 @@
 # Sample Output :
 # r = 1.1
 # Area = 3.8013271108436504
-import math
-radiusString = input("Type in the radius:")
-radius = int(radiusString)
-def circleArea(radius):
-    return math.pi * radius**2
+# import math
+# radiusString = input("Type in the radius:")
+# radius = int(radiusString)
+# def circleArea(radius):
+#     return math.pi * radius**2
 
-area = circleArea(radius)
+# area = circleArea(radius)
 
-print("r = {0}\n area = {1}".format(radius, area))
+# print("r = {0}\n area = {1}".format(radius, area))
 
 
 # 5. Write a Python program which accepts the user's first and last name and print them in reverse order with a space between them. 
 # hello
 
-# 6. Write a Python program which accepts a sequence of comma-separated numbers from user and generate a list and a tuple with those numbers. 
-# Sample data : 3, 5, 7, 23
-# Output :
-# List : ['3', ' 5', ' 7', ' 23']
-# Tuple : ('3', ' 5', ' 7', ' 23')
+# fullName = input ("What is your name?:")
+# print (fullName[::-1])
 
 
-# 8. Write a Python program to display the first and last colors from the following list. 
-# color_list = ["Red","Green","White" ,"Black"]
+# 12. Write a Python program to print the calendar of a given month and year.
+# Note : Use 'calendar' module.
+
+import calendar
+y = int(input("Input the year:"))
+m = int(input("Input the month:"))
+print(calendar.month(y,m))
