@@ -40,11 +40,9 @@
 
 
 # 5. Write a Python program which accepts the user's first and last name and print them in reverse order with a space between them. 
-# hello
 
 # fullName = input ("What is your name?:")
 # print (fullName[::-1])
-
 
 # 12. Write a Python program to print the calendar of a given month and year.
 # Note : Use 'calendar' module.
@@ -53,3 +51,23 @@ import calendar
 y = int(input("Input the year:"))
 m = int(input("Input the month:"))
 print(calendar.month(y,m))
+
+# 8. Write a Python program to display the first and last colors (First and last elements) from the following list. 
+# color_list = ["Red","Green","White" ,"Black"]
+
+# 113. Write a Python function to input a number, if it is not a number generate an error message, or is positive, negative or zero. 
+
+# 48. Write a Python function to parse a string to Float or Integer. Name the function as "string2Float" and "string2Int"
+
+# 34. Write a Python function to sum of two given (input) integers. However, if the sum is between 15 to 20 it will return 20. 
+
+# 65. Write a Python function to convert seconds to day, hour, minutes and seconds. Function name "seconds2Datetime"
+
+# 91. Write a Python function to swap two variables. Function name "swap2Vars"
+
+# 138. Write a Python function to convert true to 1 and false to 0. 
+
+##### Bonus:
+# 58. Write a python function to find the sum of the first n positive integers. 
+
+# 99. Write a Python function to clear the screen or terminal. 
