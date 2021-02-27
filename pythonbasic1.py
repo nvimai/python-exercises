@@ -47,52 +47,75 @@
 # 12. Write a Python program to print the calendar of a given month and year.
 # Note : Use 'calendar' module.
 
+# # Import the calendar library
 # import calendar
+
+# # Ask user for the input of year and month
 # y = int(input("Input the year:"))
 # m = int(input("Input the month:"))
+
+# # Print out the whole calendar from the input
 # print(calendar.month(y,m))
 
 # 8. Write a Python program to display the first and last colors (First and last elements) from the following list. 
-# color_list = ["Red","Green","White" ,"Black"]
+# colorList = ["Red","Green","White" ,"Black"]
 
-# color_list = ["Red","Green","White", "Black"]
+# colorList = ["Red","Green","White", "Black"]
+# res = [colorList[0], colorList[-1]]
 
-# res = [color_list[0], color_list[-1]]
+# firstElement = colorList[0]
+# lastElement = colorList[-1]
+# print("The first and last color are: {} {}".format(firstElement, lastElement))
 
 # print ("The first and last colors are:" + str(res))
 
 # 113. Write a Python function to input a number, if it is not a number generate an error message, or is positive, negative or zero. 
 
-# def numberType():
-#     num = float(input("Enter a number: "))
-#     if num > 0:
-#         print("Your number is Positive")
-#     elif num == 0:
-#         print("Zero")
-#     else:
-#         print("Your number in negative")
+# def numberType(num):
+#     try:
+#         res = float(num)
+#         if res > 0:
+#             print("Your number is Positive")
+#         elif res == 0:
+#             print("Zero")
+#         else:
+#             print("Your number in negative")
+#     except ValueError:
+#         print("Your given input is not a number")
 
-# numberType() 
+# num = input("Enter a number: ")
+# numberType(num) 
 
 # 48. Write a Python function to parse a string to Float or Integer. Name the function as "string2Float" and "string2Int"
-def string2Float():
+# def string2Float(s):
+#     try:
+#         f = float(s)
+#         print(type(f))
+#         print("Float Value =", f)
+#         return f
+#     except ValueError:
+#         print("That is not a number")
 
-    s = "10.561"
-    f = float(s)
+# print(string2Float("15h7"))
 
-    print(type(f))
-    print("Float Value =", f)
+# def string2Int(s):
+#     try:
+#         f = int(s)
+#         print(type(f))
+#         print("Float Value =", f)
+#     except ValueError:
+#         print("That is not a number")
 
-string2Float()
+# string2Int("157")
 
 # 34. Write a Python function to sum of two given (input) integers. However, if the sum is between 15 to 20 it will return 20. 
 
 # def sum(x,y):
-#     sum = x + y
-#     if sum in range(15, 20):
+#     sum2Nums = x + y
+#     if sum2Nums in  range(15, 20):
 #         return 20
 #     else:
-#         return sum
+#         return sum2Nums
 
 # print(sum(10, 6))
 # print(sum(10, 2))
@@ -117,22 +140,24 @@ string2Float()
 
 # 91. Write a Python function to swap two variables. Function name "swap2Vars"
 
-# def swap2Vars():
-#     x = 10
-#     y = 4
+def swap2Vars():
+    x = 10
+    y = 4
 
-#     temp = x
-#     x = y
-#     y = temp
+    # temp = x
+    # x = y
+    # y = temp
 
-#     print("The value of x after swaping would be: {}".format(x))
-#     print("The value of y after swaping would be: {}".format(y))
+    x, y = y, x
 
-# swap2Vars()
+    print("The value of x after swaping would be: {}".format(x))
+    print("The value of y after swaping would be: {}".format(y))
+
+swap2Vars()
 
 # 138. Write a Python function to convert true to 1 and false to 0. 
 
-# def true1False0():
+# def true1False0(x):
 #     x = "true"
 #     x = int(x == "true")
 #     print(x)
@@ -140,9 +165,28 @@ string2Float()
 #     x = int(x == "true")
 #     print(x)
 
-# true1False0()
+#     if x == "true":
+#         return 1
+
+#     elif x == "false":
+#         return 0
+    
+#     else:
+#         print("I don't know")
+
+# true1False0("true")
 
 ##### Bonus:
 # 58. Write a python function to find the sum of the first n positive integers. 
 
+# n = int(input("Enter a positive integer: "))
+# total = n * (n+1) / 2
+
+# print("The sum of the first", n,"positive intergers",total)
+
 # 99. Write a Python function to clear the screen or terminal. 
+
+from os import system
+
+# For Windows system
+cls = lambda: system("cls")
