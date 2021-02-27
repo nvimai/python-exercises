@@ -75,9 +75,29 @@
 # numberType() 
 
 # 48. Write a Python function to parse a string to Float or Integer. Name the function as "string2Float" and "string2Int"
+def string2Float():
 
+    s = "10.561"
+    f = float(s)
+
+    print(type(f))
+    print("Float Value =", f)
+
+string2Float()
 
 # 34. Write a Python function to sum of two given (input) integers. However, if the sum is between 15 to 20 it will return 20. 
+
+# def sum(x,y):
+#     sum = x + y
+#     if sum in range(15, 20):
+#         return 20
+#     else:
+#         return sum
+
+# print(sum(10, 6))
+# print(sum(10, 2))
+# print(sum(10, 12))
+
 
 # 65. Write a Python function to convert seconds to day, hour, minutes and seconds. Function name "seconds2Datetime"
 
@@ -111,15 +131,16 @@
 # swap2Vars()
 
 # 138. Write a Python function to convert true to 1 and false to 0. 
-def true1False0():
-    x = "true"
-    x = int(x == "true")
-    print(x)
-    x = "abcd"
-    x = int(x == "true")
-    print(x)
 
-true1False0()
+# def true1False0():
+#     x = "true"
+#     x = int(x == "true")
+#     print(x)
+#     x = "abcd"
+#     x = int(x == "true")
+#     print(x)
+
+# true1False0()
 
 ##### Bonus:
 # 58. Write a python function to find the sum of the first n positive integers. 
