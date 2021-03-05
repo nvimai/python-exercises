@@ -2,10 +2,30 @@
 
 # 1. Write Python program to check a given list is empty or not. If not then return the length of that list 
 
+numList = [1, 2, 3, 4]
+# a list of number
+if not numList:
+    print("This list is empty")
+
+# Checks if the list is empty or not.
+else: 
+    print("This list is not empty")
+# if the list is not empty this will print^^.
+def lengthList():
+    listLength = len(numList)
+    print (listLength)
+
+lengthList()
+#Function to check and print how long the list is.
+
 
 # 2. Write Python program to guess the Ontario school grades of a person by year of birth
 # Input: 2010
 # Output: Grade 5 in Elementary
+
+
+
+
 
 # 3. Write Python program to find the longest word and the length of it from the string1
 # Input: 

@@ -10,6 +10,30 @@
 
 # evenOrOdd(x)
 
-aString = "Today is a nice day"
+# aString = "Today is a nice day"
 
-print("Nice" not in aString)
+# print("Nice" not in aString)
+
+# Write a ternary operator: if someone's age is higher than 18 then he can buy alcohol else he cannot buy one
+
+age = int(input("What is your age?: "))
+age = 18
+if age > 18:
+    print ("Can buy alcohol")
+else:
+    print("Cannot buy alcohol")
+
+age = 18
+if age > 18:
+    print ("Can buy alcohol")
+elif age == 18:
+    print ("Show the id")
+else:
+    print("Cannot buy alcohol")
+
+able = "Can buy alcohol" if age > 18 else "Cannot buy alcohol"
+
+# <variable> = <Result1> if <statement> else <Result2>
+print(able)
+
+

@@ -112,7 +112,7 @@
 
 # def sum(x,y):
 #     sum2Nums = x + y
-#     if sum2Nums in  range(15, 20):
+#     if sum2Nums k  range(15, 20):
 #         return 20
 #     else:
 #         return sum2Nums
