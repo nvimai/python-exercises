@@ -66,3 +66,8 @@
 # b. RGB(0, 255, 255)
 # c. #45afec
 # d. #0a88ab
+
+
+# =====================
+# Raspberry Pi: 
+# 4. Using lesson 6 of Buzzer to write a program to indicate the KAYDEN in MORSE CODE
