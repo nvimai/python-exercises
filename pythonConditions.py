@@ -205,10 +205,10 @@
 #ANSWER IS 125
 
 
-
-
-
-
+x = 4598
+y = 1235
+c = x ^ y
+print(c)
 
 
 #==========decimal to binary=============
@@ -267,3 +267,6 @@
 # elif(state % 3 == 1):
 
 # elif(state % 3 == 2):
+
+
+
