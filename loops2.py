@@ -40,3 +40,6 @@
 # *       *
 # *       *
 # * * * * *
+
+#6. Building a Guessing Game.
+# Guess a random provided number between 0 to 20
