@@ -8,4 +8,4 @@
 
 # Write an object of Bird
 
-# Write an object of Dog
+# Write an object of Doge
