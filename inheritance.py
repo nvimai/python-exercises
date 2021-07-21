@@ -213,3 +213,6 @@ print(thanh4.name())
 print(thanh4.brand())
 print(thanh4.price())
 print(thanh4)
+
+
+# xin chào các bạn lại là mình đây
