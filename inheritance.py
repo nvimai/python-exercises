@@ -214,3 +214,4 @@ print(thanh4.brand())
 print(thanh4.price())
 print(thanh4)
 
+
