@@ -19,4 +19,3 @@ _time = (time.strptime("30 Nov 00", "%d %b %y") )
 print(_time.tm_mon)
 print('2')
 
-# 
