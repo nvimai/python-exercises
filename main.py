@@ -22,6 +22,5 @@ with open('airpodreal.html', 'r') as htmlFile:
     for price in priceTag:
         print(f'Price: {price.text}')
 
-# ahihi đồ ngốc
 
 
