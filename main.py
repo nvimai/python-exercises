@@ -1,7 +1,6 @@
 # Lấy hết toàn bộ dữ liệu mình cần dựa trên cấu trúc class product name, type, brand, price
 # Tìm cách lưu ra file csv 
-# beautifulsoup read URL
-# web search
+# beautifulsoup read URL(search web)
 
 
 from bs4 import BeautifulSoup
